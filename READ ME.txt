@@ -1,0 +1,17 @@
+///ReadMe.txt
+===================================================================
+creator: Machigai
+===================================================================
+This is Work in Progress fighting game involving my characters. Thank you for playing my game
+
+For Bug Reports or suggestions: https://forms.gle/CWrSzMSWs89Ru7GY8
+
+Known bugs:
+-Training mode save states will reset the save state characters and stages
+
+Notes:
+Animation - 
+MarkV is a tester character that was used to test the engine mechanics, especially with how it works with sprites. As such *All* of its animations are sprites from other games. Muramasa on the other hand has "sketches" and while a few of her sprites (mainly defensive and hitstun mechanics) are sprites similar to MarkV those are being replaced as soon as possible. Almost all animations are "placeholder"/Cardboard but while some are sketches others are from other games to test the engine.
+
+Moves - 
+Moves/Damage/Properties/etc. are subject to change given the extremely early nature of this game. 

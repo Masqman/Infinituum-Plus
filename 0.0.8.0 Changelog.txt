@@ -1,0 +1,97 @@
+
+//General Changes 0.0.8.0
+-Gold Burst can be done with 3 buttons in general without holding forward
+-Increased naturally occuring corner pushback on block
+-Added "Near Miss" to Rolls if one successfully dodges an attacks
+	-Gain complete invulnerability until the end of the Roll
+-Narrative Edge attacks now have "Hyper Armor" and the armor is extended 1 frame into the active frame.
+-Neutral Wakeups have 1 less frame
+-General Optimizations
+
+Bugfixes:
+-Projectile Clashes now work as intended
+-General Bugfixes
+
+//Defensive changes
+-Guard Burst can be done with 3 buttons, without holding forward
+	-Movelist changed to reflect this
+-ESCG:
+	-The minimum number of frames of blockstun after an ESCG is 2f instead of 5f
+	-Increased Pushback distance(perfect block unchanged)
+-Instant Block:
+	-Now Decreases Hitstop by 50%
+	-Increased Health Regen
+	
+----------------
+
+MarkV:
+//General Changes
+-Nihil Statistician is now invulnerable frame 1 until the end of the active frames
+-The command list now accurately displays the taunt input
+
+Dark Void(214C/D) changes:
+	-214C hits fewer times, meter gain and damage reduced (1850 - 1450) (~60 -> ~40)
+	-236D hits fewer times, meter gain and damage reduced (1800 - 1300) (~80 -> ~70)
+	
+Spectre:
+	-Spectre makes MV transparent and flashing. MV will flash faster when the effect is 60f from ending.
+	-While in Spectre, 
+		-Access to aerial teleports
+		-Invisibility during Teleports and Dashes/Rolls
+		-No longer decreases during hitstop, hitstun, or blockstun
+		-Projectile invulnerability and intangibility while invisible
+			-Intangiblity is nullified when the opponent is in hitstun, this prevents dropped combos
+
+Parry:
+	-increased active frames 10 - 15
+	-Activates on frame 1
+	-Special and Roll cancellable after a successful parry
+	-Gives 8 seconds of spectre on a successful Parry
+
+Taunt Changes:
+	-Taunt will grant 8 seconds of spectre instead of "Air Teleports"
+	
+//Bugfixes
+-66A now properly grants stage reversal
+-Airdash no longer triggers win pose
+-D command grab on death on a dead character is fixed
+-Can no longer  both Air X and B Projectiles at the same time
+	-This bug is also been fixed in other places. Please notify me if the wrong projectiles are being sent from the wrong move.
+-214C and 214D no longer sometimes cause a fatal error
+-Taunt now actually has a hurtbox :P
+-Removed 623B down teleport infinite, which was due to a bug
+
+----------------
+
+Muramasa Changes:
+
+//Bugfixes
+-EX command grab no longer kills prematurely
+-Fixed Grab distance during down thrown into the corner
+-Grab toy off of Back throw responds to Dance properly
+-Muramasa can now correctly stance cancel Dance Macabre
+
+//General
+-Level 3 now does more spins if Danse mechabe is more active(ignoring the Narrative shift free level) uses use Danse Macabre
+	-These extra spins have bonus damage and do not scale like the normal hits
+-Changed Love Dart hitbox to not crossup nearly as much
+-214C changed directory.
+	-doesn't combo off of a raw hit without OTG, instead leading to a very good tech chase. The window is much tighter.
+	
+
+Toy Changes:
+	-Toy command "AB" and "CD" no longer result in invulnerability post throw
+	-Changed H Exhaltation(s.214B) to cause Tumbling, changed trajectory, reduced KD time
+		-Removed 12f of recovery on a successul throw
+
+Danse Macabre changes:
+	Danse Macabre Parry:
+		-Increased Hitstop for both characters, on a successful Parry
+		-Parry window increased to 20
+		-Dance Parry now has "hyper armor" behavior
+	-Dance now builds Danse Macabre Aura Levels over time. Also, builds 1 Danse Macabre Aura Level on a successful Parry.
+	
+Danse Macabre Aura:
+	-Levelling Behavior changed. Each level lasts for a shorter time than the previous level, each levels effect increase more heavily than the last.
+	-Death Aura steals meter, if there is no meter it steals health
+		-Muramasa's current issue is the constant need for meter. The current behavior adds more damage output which she doesn't need, making it useless. Therefore reducing the potential damage output a bit and giving her a soft tool to mitigate this gives it more use and makes it something worthwhile to use in match.
